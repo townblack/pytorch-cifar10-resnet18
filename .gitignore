@@ -4,5 +4,6 @@
 __pycache__
 data
 model
+logs
 __pycache__
 .vscode

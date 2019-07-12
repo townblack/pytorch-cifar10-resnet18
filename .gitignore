@@ -1,0 +1,8 @@
+*.txt
+*.pth
+*.zip
+__pycache__
+data
+model
+__pycache__
+.vscode

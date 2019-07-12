@@ -25,10 +25,10 @@ parser.add_argument('--net', default='./model/Resnet18.pth', help="path to net (
 args = parser.parse_args()
 
 # 超参数设置
-EPOCH = 150   #遍历数据集次数
+EPOCH = 240   #遍历数据集次数
 BATCH_SIZE = 128      #批处理尺寸(batch_size)
 LR = 0.001        #学习率
-Milestones=[100,120,140]
+Milestones=[135,185]
 Debug=False
 
 # 准备数据集并预处理
